@@ -1,0 +1,19 @@
+body{
+    background-image: url(img/image-from-rawpixel-id-1201197-jpeg.jpg);
+}
+
+h2{
+  font-size: 28px;  
+  font-weight: bold;
+  font-family: helvetica , Arial, sans-serif;
+  color: #1a71b8;     
+}
+
+hr{
+    border: 2px solid #1a71b8;
+    border-radius: 2.5px;
+}
+
+.form-control{
+    border: solid 2px #1a71b8;
+}
