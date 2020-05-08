@@ -16,14 +16,16 @@
         
         <div class="container">
             
-            <div class="page-header">
-                <h2>iMANAGER</h2>
-                <p class="lead">Please register your Instances here</p>
-            </div><!--page header-->
-            <hr>
             <div class="row">
-                <div class="col-sm-6">
-                    <form>
+                <div style="margin-bottom:35px;height:100vh;" class="test col-sm-5">
+                      <div class="page-header">
+                          <h2>iMANAGER</h2>
+                          <p class="lead">Please register your Instances here..</p>
+                      </div><!--page header-->
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-6 ">
+                    <form style="padding-top:30px;">
                         <div class="form-group">
                           <label for="InfaHome">Informatica Installation Directory</label>
                             <input type="text" id="InfaHome" class="form-control" placeholder="INFA_HOME" required>
@@ -56,18 +58,13 @@
                         
                         <div class="form-group">
                              <label for="port">SSH Port</label>
-                            <input type="text" id="port" class="form-control" placeholder="default 22">
+                            <input type="text" id="port" class="form-control" placeholder="default 22" value="22">
                         </div>
                         
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
                 
-                <div class="col-sm-4">
-                    <form>
-                    
-                    </form>
-                </div>
             
             </div>
         

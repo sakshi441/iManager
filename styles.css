@@ -1,11 +1,20 @@
 body{
-    background-image: url(img/image-from-rawpixel-id-1201197-jpeg.jpg);
+background: #1c92d2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-h2{
-  font-size: 28px;  
-  font-weight: bold;
-  font-family: helvetica , Arial, sans-serif;
+.page-header{
+    position: relative;
+    top: 40%;
+}
+
+
+h2{    
+  font-size: 40px;  
+  font-weight: bolder;
+  font-family: Stencil Std;
   color: #1a71b8;     
 }
 
